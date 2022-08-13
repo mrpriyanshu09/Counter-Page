@@ -1,0 +1,9 @@
+let count = 0;
+function increase_no() {
+  count = count + 1;
+  document.getElementById("num").innerText = count;
+}
+function decrease_no() {
+  count = count - 1;
+  document.getElementById("num").innerText = count;
+}
